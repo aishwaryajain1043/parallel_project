@@ -1,1 +1,5 @@
-# parallel_project
+Efficient sorting of large datasets is a fundamental challenge in high-performance computing (HPC), especially as data volumes and computational demands continue to grow. While traditional merge sort algorithms are effective in sequential CPU environments, they often become performance bottlenecks when handling massive datasets due to limited parallelism.
+
+This project explores the implementation and evaluation of a parallel version of merge sort using NVIDIA's CUDA architecture, which enables general-purpose computing on GPUs. By harnessing the massive parallelism offered by thousands of lightweight GPU threads, the project aims to significantly reduce execution time and improve scalability for sorting operations.
+
+The work involves developing both CPU and GPU versions of merge sort, measuring and comparing their performance across varying input sizes, and analyzing key metrics such as speedup, efficiency, scalability, granularity, load balancing, and communication overhead. Through this comparative analysis, the project demonstrates how parallelization strategies can be applied to classic algorithms to meet modern computational demands, highlighting the advantages and practical considerations of GPU-accelerated sorting.
